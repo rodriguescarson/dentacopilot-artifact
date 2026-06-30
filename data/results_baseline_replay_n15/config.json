@@ -1,0 +1,16 @@
+{
+  "replayed_from": "data/results_full_2026-05-02T18-46-33Z",
+  "n_test_examples": 15,
+  "args": {
+    "llm_run": "data/results_full_2026-05-02T18-46-33Z",
+    "n_charts": 500,
+    "seed": 42,
+    "models": [
+      "b0_bigram",
+      "b1_tfidf_lr",
+      "b3_multitp"
+    ],
+    "top_k": 5,
+    "out": "data/results_baseline_replay_n15"
+  }
+}

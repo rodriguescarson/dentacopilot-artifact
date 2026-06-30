@@ -1,0 +1,28 @@
+# Paper 7 — DentaCoPilot requirements
+# Pinned to specific minor versions to keep results reproducible.
+#
+# IMPORTANT: This file does NOT include `anthropic`. All LLM compute is routed
+# through the local `claude` CLI (Claude Code) via data/cc_compute.py to use
+# a Claude Code subscription rather than the metered Anthropic
+# API.
+
+# Core
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.1
+xgboost==2.1.0
+scipy==1.13.1
+tqdm==4.66.4
+
+# Calibration
+matplotlib==3.9.1
+
+# Optional: imaging-context loaders (kept light; install separately if needed)
+# pydicom==2.4.4
+# pillow==10.4.0
+
+# Optional: minimal MultiTP comparator
+# torch==2.3.1
+
+# Test
+pytest==8.3.2

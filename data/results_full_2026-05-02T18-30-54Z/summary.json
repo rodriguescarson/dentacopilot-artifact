@@ -1,0 +1,30 @@
+{
+  "runs": [
+    {
+      "model": "b2_xgboost",
+      "n_test_examples": 30,
+      "top1_acc": 0.5666666666666667,
+      "top3_acc": 0.9,
+      "top5_acc": 0.9,
+      "top1_by_category": {
+        "diagnostic": 0.8889,
+        "restorative": 0.2,
+        "preventive": 0.6,
+        "orthodontic": 0.6667,
+        "adjunctive": 0.5,
+        "periodontic": 0.0
+      },
+      "category_counts": {
+        "diagnostic": 9,
+        "restorative": 5,
+        "preventive": 5,
+        "orthodontic": 3,
+        "adjunctive": 6,
+        "periodontic": 2
+      },
+      "wallclock_s": 0.018,
+      "fit_wallclock_s": 2.542,
+      "used_llm_cap": false
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "dataset": "MEPS HC-248B (2023 Dental Visits)",
+  "seed": 42,
+  "n_transitions": 11016,
+  "n_patients": 5088,
+  "n_classes": 11,
+  "labels": [
+    "endodontic",
+    "exam",
+    "implant",
+    "oral_surgery",
+    "orthodontic",
+    "other_none",
+    "periodontal",
+    "preventive",
+    "prophylaxis",
+    "prosthodontic",
+    "restorative"
+  ],
+  "n_train": 7585,
+  "n_test": 3431,
+  "class_distribution": {
+    "prophylaxis": 3474,
+    "restorative": 2046,
+    "orthodontic": 1460,
+    "preventive": 1056,
+    "exam": 1023,
+    "oral_surgery": 524,
+    "prosthodontic": 502,
+    "endodontic": 268,
+    "implant": 248,
+    "other_none": 215,
+    "periodontal": 200
+  },
+  "results": {
+    "B0_marginal": {
+      "top1": 0.2967064995628097,
+      "top3": 0.623433401340717,
+      "macro_f1": 0.04160281166349946
+    },
+    "B1_markov": {
+      "top1": 0.4794520547945205,
+      "top3": 0.7808219178082192,
+      "macro_f1": 0.41851733340968733
+    },
+    "B2_logreg": {
+      "top1": 0.4774118332847566,
+      "top3": 0.7831535995336637,
+      "macro_f1": 0.408245252432431
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "runs": [
+    {
+      "model": "m2_sonnet_cot",
+      "n_test_examples": 10,
+      "top1_acc": 0.2,
+      "top3_acc": 0.6,
+      "top5_acc": 0.7,
+      "top1_by_category": {
+        "adjunctive": 0.0,
+        "diagnostic": 0.3333,
+        "orthodontic": 0.5,
+        "preventive": 0.0,
+        "periodontic": 0.0
+      },
+      "category_counts": {
+        "adjunctive": 1,
+        "diagnostic": 3,
+        "orthodontic": 2,
+        "preventive": 2,
+        "periodontic": 2
+      },
+      "wallclock_s": 277.633,
+      "fit_wallclock_s": 0.002,
+      "used_llm_cap": true
+    }
+  ]
+}

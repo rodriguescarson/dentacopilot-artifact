@@ -1,0 +1,32 @@
+{
+  "runs": [
+    {
+      "model": "m5_sonnet_baseline_primed",
+      "n_test_examples": 30,
+      "top1_acc": 0.5333333333333333,
+      "top3_acc": 0.7666666666666667,
+      "top5_acc": 0.9333333333333333,
+      "top1_by_category": {
+        "preventive": 0.3333,
+        "diagnostic": 0.6667,
+        "restorative": 0.0,
+        "orthodontic": 0.6667,
+        "oral_surgery": 1.0,
+        "periodontic": 0.6667,
+        "adjunctive": 0.0
+      },
+      "category_counts": {
+        "preventive": 3,
+        "diagnostic": 15,
+        "restorative": 4,
+        "orthodontic": 3,
+        "oral_surgery": 1,
+        "periodontic": 3,
+        "adjunctive": 1
+      },
+      "wallclock_s": 1083.048,
+      "fit_wallclock_s": 0.204,
+      "used_llm_cap": true
+    }
+  ]
+}

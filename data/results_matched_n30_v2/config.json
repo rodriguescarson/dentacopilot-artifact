@@ -1,0 +1,11 @@
+{
+  "merged_from": [
+    "data/results_baseline_replay_2026-05-02T18-45-08Z",
+    "data/results_b2_replay",
+    "data/results_full_2026-05-02T17-29-14Z",
+    "data/results_full_2026-05-02T18-54-26Z"
+  ],
+  "merged_at": "2026-05-02T19:13:27.497963+00:00",
+  "n_trials": 240,
+  "n_models": 8
+}

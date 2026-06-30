@@ -1,0 +1,30 @@
+{
+  "runs": [
+    {
+      "model": "m4_opus_cot",
+      "n_test_examples": 15,
+      "top1_acc": 0.4666666666666667,
+      "top3_acc": 0.6666666666666666,
+      "top5_acc": 0.7333333333333333,
+      "top1_by_category": {
+        "preventive": 1.0,
+        "diagnostic": 0.6667,
+        "restorative": 0.0,
+        "orthodontic": 0.0,
+        "oral_surgery": 0.0,
+        "periodontic": 0.5
+      },
+      "category_counts": {
+        "preventive": 2,
+        "diagnostic": 6,
+        "restorative": 3,
+        "orthodontic": 1,
+        "oral_surgery": 1,
+        "periodontic": 2
+      },
+      "wallclock_s": 187.069,
+      "fit_wallclock_s": 0.01,
+      "used_llm_cap": true
+    }
+  ]
+}

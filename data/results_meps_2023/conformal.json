@@ -1,0 +1,80 @@
+{
+  "dataset": "MEPS HC-248B (2023 Dental Visits)",
+  "seed": 42,
+  "model": "B2 multinomial logistic regression",
+  "n_test": 3431,
+  "n_cal": 1794,
+  "n_eval": 1637,
+  "n_eval_patients": 764,
+  "full_coverage_risk": 0.5149664019547954,
+  "ece_eval": 0.031069047446054137,
+  "method": "split-conformal selective prediction, score = top-1 probability",
+  "coverage_risk": [
+    {
+      "target_coverage": 0.95,
+      "tau": 0.2561089418727804,
+      "achieved_coverage": 0.9926695174098962,
+      "coverage_ci95": [
+        0.9875737805711162,
+        0.9967930211017529
+      ],
+      "selective_risk": 0.5138461538461538,
+      "n_accepted": 1625
+    },
+    {
+      "target_coverage": 0.9,
+      "tau": 0.2761640314605509,
+      "achieved_coverage": 0.8778252901649358,
+      "coverage_ci95": [
+        0.8558942221847567,
+        0.8983344477647689
+      ],
+      "selective_risk": 0.49060542797494777,
+      "n_accepted": 1437
+    },
+    {
+      "target_coverage": 0.8,
+      "tau": 0.3056624980014262,
+      "achieved_coverage": 0.7984117287721442,
+      "coverage_ci95": [
+        0.7726089531557304,
+        0.8221156454675813
+      ],
+      "selective_risk": 0.4743687834736037,
+      "n_accepted": 1307
+    },
+    {
+      "target_coverage": 0.7,
+      "tau": 0.34833171671085295,
+      "achieved_coverage": 0.7128894318875992,
+      "coverage_ci95": [
+        0.6827868215927383,
+        0.7415308316791368
+      ],
+      "selective_risk": 0.4498714652956298,
+      "n_accepted": 1167
+    },
+    {
+      "target_coverage": 0.6,
+      "tau": 0.4192681386652094,
+      "achieved_coverage": 0.6450824679291387,
+      "coverage_ci95": [
+        0.6117575015309247,
+        0.675644677204851
+      ],
+      "selective_risk": 0.44412878787878785,
+      "n_accepted": 1056
+    },
+    {
+      "target_coverage": 0.5,
+      "tau": 0.46287893773500177,
+      "achieved_coverage": 0.48747709224190594,
+      "coverage_ci95": [
+        0.4535133990239236,
+        0.5236029175224568
+      ],
+      "selective_risk": 0.4197994987468672,
+      "n_accepted": 798
+    }
+  ]
+}

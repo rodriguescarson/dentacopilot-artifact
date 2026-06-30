@@ -1,0 +1,2162 @@
+[
+  {
+    "chart_id": "P000424",
+    "prefix_len": 12,
+    "model": "m1_haiku",
+    "gold": "D1110",
+    "gold_category": "preventive",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D4910",
+      "D2391"
+    ],
+    "top_k_probs": [
+      0.4,
+      0.3,
+      0.15,
+      0.1,
+      0.05
+    ],
+    "correct@1": 0,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000412",
+    "prefix_len": 13,
+    "model": "m1_haiku",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0120",
+      "D4910",
+      "D0274",
+      "D4341",
+      "D0330"
+    ],
+    "top_k_probs": [
+      0.4,
+      0.35,
+      0.15,
+      0.07,
+      0.03
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000135",
+    "prefix_len": 20,
+    "model": "m1_haiku",
+    "gold": "D2392",
+    "gold_category": "restorative",
+    "top_k_codes": [
+      "D0120",
+      "D0274",
+      "D4910",
+      "D4341",
+      "D0210"
+    ],
+    "top_k_probs": [
+      0.3,
+      0.25,
+      0.25,
+      0.12,
+      0.08
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000047",
+    "prefix_len": 19,
+    "model": "m1_haiku",
+    "gold": "D2950",
+    "gold_category": "restorative",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D4910",
+      "D0274",
+      "D4341"
+    ],
+    "top_k_probs": [
+      0.35,
+      0.3,
+      0.15,
+      0.12,
+      0.08
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000214",
+    "prefix_len": 3,
+    "model": "m1_haiku",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D0210",
+      "D1206"
+    ],
+    "top_k_probs": [
+      0.28,
+      0.28,
+      0.25,
+      0.12,
+      0.07
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000274",
+    "prefix_len": 6,
+    "model": "m1_haiku",
+    "gold": "D8080",
+    "gold_category": "orthodontic",
+    "top_k_codes": [
+      "D1110",
+      "D0120",
+      "D0274",
+      "D1206",
+      "D0210"
+    ],
+    "top_k_probs": [
+      0.45,
+      0.35,
+      0.12,
+      0.05,
+      0.03
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000111",
+    "prefix_len": 15,
+    "model": "m1_haiku",
+    "gold": "D7210",
+    "gold_category": "oral_surgery",
+    "top_k_codes": [
+      "D0120",
+      "D0210",
+      "D4910",
+      "D4341",
+      "D6010"
+    ],
+    "top_k_probs": [
+      0.35,
+      0.25,
+      0.2,
+      0.12,
+      0.08
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000012",
+    "prefix_len": 3,
+    "model": "m1_haiku",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0150",
+      "D0274",
+      "D1110",
+      "D0330",
+      "D8080"
+    ],
+    "top_k_probs": [
+      0.35,
+      0.25,
+      0.2,
+      0.12,
+      0.08
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000302",
+    "prefix_len": 19,
+    "model": "m1_haiku",
+    "gold": "D2392",
+    "gold_category": "restorative",
+    "top_k_codes": [
+      "D0120",
+      "D0274",
+      "D1110",
+      "D0210",
+      "D1206"
+    ],
+    "top_k_probs": [
+      0.42,
+      0.26,
+      0.18,
+      0.09,
+      0.05
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000012",
+    "prefix_len": 24,
+    "model": "m1_haiku",
+    "gold": "D0274",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D8080",
+      "D0120",
+      "D1110",
+      "D0274",
+      "D2391"
+    ],
+    "top_k_probs": [
+      0.38,
+      0.27,
+      0.22,
+      0.1,
+      0.03
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000185",
+    "prefix_len": 12,
+    "model": "m1_haiku",
+    "gold": "D1110",
+    "gold_category": "preventive",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D4341",
+      "D0210"
+    ],
+    "top_k_probs": [
+      0.42,
+      0.36,
+      0.12,
+      0.07,
+      0.03
+    ],
+    "correct@1": 0,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000279",
+    "prefix_len": 10,
+    "model": "m1_haiku",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0120",
+      "D0210",
+      "D4910",
+      "D0274",
+      "D1110"
+    ],
+    "top_k_probs": [
+      0.4,
+      0.3,
+      0.15,
+      0.1,
+      0.05
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000258",
+    "prefix_len": 5,
+    "model": "m1_haiku",
+    "gold": "D4346",
+    "gold_category": "periodontic",
+    "top_k_codes": [
+      "D0120",
+      "D0274",
+      "D1110",
+      "D4910",
+      "D4346"
+    ],
+    "top_k_probs": [
+      0.45,
+      0.25,
+      0.15,
+      0.1,
+      0.05
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000125",
+    "prefix_len": 8,
+    "model": "m1_haiku",
+    "gold": "D4910",
+    "gold_category": "periodontic",
+    "top_k_codes": [
+      "D0120",
+      "D4910",
+      "D0274",
+      "D0210",
+      "D4346"
+    ],
+    "top_k_probs": [
+      0.35,
+      0.3,
+      0.15,
+      0.12,
+      0.08
+    ],
+    "correct@1": 0,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000214",
+    "prefix_len": 8,
+    "model": "m1_haiku",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D0210",
+      "D4910"
+    ],
+    "top_k_probs": [
+      0.38,
+      0.32,
+      0.18,
+      0.07,
+      0.05
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000327",
+    "prefix_len": 11,
+    "model": "m1_haiku",
+    "gold": "D0210",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0120",
+      "D4910",
+      "D0274",
+      "D0150",
+      "D0210"
+    ],
+    "top_k_probs": [
+      0.3,
+      0.27,
+      0.25,
+      0.12,
+      0.06
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000071",
+    "prefix_len": 3,
+    "model": "m1_haiku",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0150",
+      "D0210",
+      "D1110",
+      "D0274",
+      "D0120"
+    ],
+    "top_k_probs": [
+      0.5,
+      0.2,
+      0.15,
+      0.1,
+      0.05
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000258",
+    "prefix_len": 8,
+    "model": "m1_haiku",
+    "gold": "D0274",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D4910",
+      "D0274",
+      "D4346"
+    ],
+    "top_k_probs": [
+      0.4,
+      0.25,
+      0.2,
+      0.1,
+      0.05
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000332",
+    "prefix_len": 11,
+    "model": "m1_haiku",
+    "gold": "D9215",
+    "gold_category": "adjunctive",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D0150",
+      "D4910"
+    ],
+    "top_k_probs": [
+      0.4,
+      0.35,
+      0.15,
+      0.05,
+      0.05
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000183",
+    "prefix_len": 20,
+    "model": "m1_haiku",
+    "gold": "D1110",
+    "gold_category": "preventive",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D4910",
+      "D1206"
+    ],
+    "top_k_probs": [
+      0.4,
+      0.3,
+      0.15,
+      0.08,
+      0.07
+    ],
+    "correct@1": 0,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000282",
+    "prefix_len": 16,
+    "model": "m1_haiku",
+    "gold": "D8080",
+    "gold_category": "orthodontic",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D8080",
+      "D2392"
+    ],
+    "top_k_probs": [
+      0.35,
+      0.3,
+      0.18,
+      0.12,
+      0.05
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000274",
+    "prefix_len": 28,
+    "model": "m1_haiku",
+    "gold": "D8080",
+    "gold_category": "orthodontic",
+    "top_k_codes": [
+      "D8080",
+      "D0120",
+      "D8210",
+      "D1110",
+      "D4346"
+    ],
+    "top_k_probs": [
+      0.75,
+      0.12,
+      0.08,
+      0.03,
+      0.02
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000022",
+    "prefix_len": 1,
+    "model": "m1_haiku",
+    "gold": "D0274",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0120",
+      "D0274",
+      "D1110",
+      "D0210",
+      "D0330"
+    ],
+    "top_k_probs": [
+      0.35,
+      0.25,
+      0.2,
+      0.12,
+      0.08
+    ],
+    "correct@1": 0,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000486",
+    "prefix_len": 2,
+    "model": "m1_haiku",
+    "gold": "D0274",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D4346",
+      "D0150"
+    ],
+    "top_k_probs": [
+      0.35,
+      0.25,
+      0.2,
+      0.12,
+      0.08
+    ],
+    "correct@1": 0,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000176",
+    "prefix_len": 3,
+    "model": "m1_haiku",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0120",
+      "D0274",
+      "D1110",
+      "D1206",
+      "D0210"
+    ],
+    "top_k_probs": [
+      0.35,
+      0.3,
+      0.25,
+      0.07,
+      0.03
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000274",
+    "prefix_len": 5,
+    "model": "m1_haiku",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0120",
+      "D0274",
+      "D1110",
+      "D0210",
+      "D0330"
+    ],
+    "top_k_probs": [
+      0.38,
+      0.28,
+      0.18,
+      0.1,
+      0.06
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000433",
+    "prefix_len": 6,
+    "model": "m1_haiku",
+    "gold": "D4910",
+    "gold_category": "periodontic",
+    "top_k_codes": [
+      "D0120",
+      "D0274",
+      "D4910",
+      "D1110",
+      "D0210"
+    ],
+    "top_k_probs": [
+      0.35,
+      0.25,
+      0.2,
+      0.15,
+      0.05
+    ],
+    "correct@1": 0,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000279",
+    "prefix_len": 7,
+    "model": "m1_haiku",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0120",
+      "D0330",
+      "D1110",
+      "D0274",
+      "D4910"
+    ],
+    "top_k_probs": [
+      0.4,
+      0.25,
+      0.2,
+      0.1,
+      0.05
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000302",
+    "prefix_len": 14,
+    "model": "m1_haiku",
+    "gold": "D0274",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D0210",
+      "D4910"
+    ],
+    "top_k_probs": [
+      0.35,
+      0.3,
+      0.2,
+      0.1,
+      0.05
+    ],
+    "correct@1": 0,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000022",
+    "prefix_len": 9,
+    "model": "m1_haiku",
+    "gold": "D2392",
+    "gold_category": "restorative",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D0210",
+      "D0330"
+    ],
+    "top_k_probs": [
+      0.35,
+      0.3,
+      0.2,
+      0.1,
+      0.05
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000424",
+    "prefix_len": 12,
+    "model": "m2_sonnet_cot",
+    "gold": "D1110",
+    "gold_category": "preventive",
+    "top_k_codes": [
+      "D1110",
+      "D0120",
+      "D0274",
+      "D2750",
+      "D2950"
+    ],
+    "top_k_probs": [
+      0.3,
+      0.25,
+      0.2,
+      0.15,
+      0.1
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000412",
+    "prefix_len": 13,
+    "model": "m2_sonnet_cot",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D4910",
+      "D0120",
+      "D0274",
+      "D4341",
+      "D4342"
+    ],
+    "top_k_probs": [
+      0.55,
+      0.18,
+      0.12,
+      0.08,
+      0.07
+    ],
+    "correct@1": 0,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000135",
+    "prefix_len": 20,
+    "model": "m2_sonnet_cot",
+    "gold": "D2392",
+    "gold_category": "restorative",
+    "top_k_codes": [
+      "D4910",
+      "D4341",
+      "D0274",
+      "D0120",
+      "D2392"
+    ],
+    "top_k_probs": [
+      0.45,
+      0.22,
+      0.13,
+      0.12,
+      0.08
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000047",
+    "prefix_len": 19,
+    "model": "m2_sonnet_cot",
+    "gold": "D2950",
+    "gold_category": "restorative",
+    "top_k_codes": [
+      "D1110",
+      "D0120",
+      "D1206",
+      "D4346",
+      "D2391"
+    ],
+    "top_k_probs": [
+      0.35,
+      0.25,
+      0.15,
+      0.13,
+      0.12
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000214",
+    "prefix_len": 3,
+    "model": "m2_sonnet_cot",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D4346",
+      "D2391"
+    ],
+    "top_k_probs": [
+      0.33,
+      0.29,
+      0.17,
+      0.11,
+      0.1
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000274",
+    "prefix_len": 6,
+    "model": "m2_sonnet_cot",
+    "gold": "D8080",
+    "gold_category": "orthodontic",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D1206",
+      "D8080"
+    ],
+    "top_k_probs": [
+      0.35,
+      0.3,
+      0.15,
+      0.12,
+      0.08
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000111",
+    "prefix_len": 15,
+    "model": "m2_sonnet_cot",
+    "gold": "D7210",
+    "gold_category": "oral_surgery",
+    "top_k_codes": [
+      "D6010",
+      "D0120",
+      "D4910",
+      "D5213",
+      "D0274"
+    ],
+    "top_k_probs": [
+      0.28,
+      0.25,
+      0.2,
+      0.15,
+      0.12
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000012",
+    "prefix_len": 3,
+    "model": "m2_sonnet_cot",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D8080",
+      "D1206"
+    ],
+    "top_k_probs": [
+      0.3,
+      0.27,
+      0.18,
+      0.15,
+      0.1
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000302",
+    "prefix_len": 19,
+    "model": "m2_sonnet_cot",
+    "gold": "D2392",
+    "gold_category": "restorative",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D2393",
+      "D4910"
+    ],
+    "top_k_probs": [
+      0.3,
+      0.27,
+      0.2,
+      0.13,
+      0.1
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000012",
+    "prefix_len": 24,
+    "model": "m2_sonnet_cot",
+    "gold": "D0274",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D8080",
+      "D1110",
+      "D0274",
+      "D9215",
+      "D2391"
+    ],
+    "top_k_probs": [
+      0.45,
+      0.25,
+      0.12,
+      0.1,
+      0.08
+    ],
+    "correct@1": 0,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000185",
+    "prefix_len": 12,
+    "model": "m2_sonnet_cot",
+    "gold": "D1110",
+    "gold_category": "preventive",
+    "top_k_codes": [
+      "D1110",
+      "D0120",
+      "D0274",
+      "D2391",
+      "D1206"
+    ],
+    "top_k_probs": [
+      0.35,
+      0.3,
+      0.15,
+      0.12,
+      0.08
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000279",
+    "prefix_len": 10,
+    "model": "m2_sonnet_cot",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0120",
+      "D0274",
+      "D1110",
+      "D6065",
+      "D4910"
+    ],
+    "top_k_probs": [
+      0.35,
+      0.25,
+      0.15,
+      0.15,
+      0.1
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000258",
+    "prefix_len": 5,
+    "model": "m2_sonnet_cot",
+    "gold": "D4346",
+    "gold_category": "periodontic",
+    "top_k_codes": [
+      "D4910",
+      "D0120",
+      "D0274",
+      "D4341",
+      "D1110"
+    ],
+    "top_k_probs": [
+      0.4,
+      0.25,
+      0.2,
+      0.08,
+      0.07
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000125",
+    "prefix_len": 8,
+    "model": "m2_sonnet_cot",
+    "gold": "D4910",
+    "gold_category": "periodontic",
+    "top_k_codes": [
+      "D4910",
+      "D4341",
+      "D0120",
+      "D0274",
+      "D4342"
+    ],
+    "top_k_probs": [
+      0.55,
+      0.18,
+      0.12,
+      0.08,
+      0.07
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000214",
+    "prefix_len": 8,
+    "model": "m2_sonnet_cot",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D1206",
+      "D2391"
+    ],
+    "top_k_probs": [
+      0.35,
+      0.3,
+      0.2,
+      0.08,
+      0.07
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000327",
+    "prefix_len": 11,
+    "model": "m2_sonnet_cot",
+    "gold": "D0210",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D1110",
+      "D6065",
+      "D0274",
+      "D6056",
+      "D0120"
+    ],
+    "top_k_probs": [
+      0.33,
+      0.28,
+      0.14,
+      0.13,
+      0.12
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000071",
+    "prefix_len": 3,
+    "model": "m2_sonnet_cot",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D4346",
+      "D2391"
+    ],
+    "top_k_probs": [
+      0.35,
+      0.28,
+      0.2,
+      0.1,
+      0.07
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000258",
+    "prefix_len": 8,
+    "model": "m2_sonnet_cot",
+    "gold": "D0274",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D4910",
+      "D0120",
+      "D0274",
+      "D4346",
+      "D1110"
+    ],
+    "top_k_probs": [
+      0.45,
+      0.2,
+      0.18,
+      0.1,
+      0.07
+    ],
+    "correct@1": 0,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000332",
+    "prefix_len": 11,
+    "model": "m2_sonnet_cot",
+    "gold": "D9215",
+    "gold_category": "adjunctive",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D2392",
+      "D4910"
+    ],
+    "top_k_probs": [
+      0.33,
+      0.28,
+      0.17,
+      0.12,
+      0.1
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000183",
+    "prefix_len": 20,
+    "model": "m2_sonnet_cot",
+    "gold": "D1110",
+    "gold_category": "preventive",
+    "top_k_codes": [
+      "D1110",
+      "D0120",
+      "D2392",
+      "D0274",
+      "D4910"
+    ],
+    "top_k_probs": [
+      0.32,
+      0.28,
+      0.17,
+      0.13,
+      0.1
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000282",
+    "prefix_len": 16,
+    "model": "m2_sonnet_cot",
+    "gold": "D8080",
+    "gold_category": "orthodontic",
+    "top_k_codes": [
+      "D8080",
+      "D0120",
+      "D2391",
+      "D1110",
+      "D0274"
+    ],
+    "top_k_probs": [
+      0.42,
+      0.2,
+      0.16,
+      0.12,
+      0.1
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000274",
+    "prefix_len": 28,
+    "model": "m2_sonnet_cot",
+    "gold": "D8080",
+    "gold_category": "orthodontic",
+    "top_k_codes": [
+      "D8080",
+      "D0120",
+      "D1110",
+      "D0274",
+      "D8210"
+    ],
+    "top_k_probs": [
+      0.65,
+      0.12,
+      0.1,
+      0.07,
+      0.06
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000022",
+    "prefix_len": 1,
+    "model": "m2_sonnet_cot",
+    "gold": "D0274",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D1206",
+      "D0210"
+    ],
+    "top_k_probs": [
+      0.3,
+      0.28,
+      0.22,
+      0.1,
+      0.1
+    ],
+    "correct@1": 0,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000486",
+    "prefix_len": 2,
+    "model": "m2_sonnet_cot",
+    "gold": "D0274",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D1110",
+      "D4341",
+      "D0120",
+      "D4346",
+      "D4342"
+    ],
+    "top_k_probs": [
+      0.32,
+      0.22,
+      0.18,
+      0.15,
+      0.13
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000176",
+    "prefix_len": 3,
+    "model": "m2_sonnet_cot",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D4346",
+      "D1206"
+    ],
+    "top_k_probs": [
+      0.31,
+      0.27,
+      0.21,
+      0.13,
+      0.08
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000274",
+    "prefix_len": 5,
+    "model": "m2_sonnet_cot",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D1206",
+      "D0274",
+      "D8080"
+    ],
+    "top_k_probs": [
+      0.32,
+      0.3,
+      0.15,
+      0.13,
+      0.1
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000433",
+    "prefix_len": 6,
+    "model": "m2_sonnet_cot",
+    "gold": "D4910",
+    "gold_category": "periodontic",
+    "top_k_codes": [
+      "D4910",
+      "D0274",
+      "D0120",
+      "D4341",
+      "D1110"
+    ],
+    "top_k_probs": [
+      0.55,
+      0.18,
+      0.12,
+      0.08,
+      0.07
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000279",
+    "prefix_len": 7,
+    "model": "m2_sonnet_cot",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D6056",
+      "D0120",
+      "D4910",
+      "D6065",
+      "D0274"
+    ],
+    "top_k_probs": [
+      0.33,
+      0.22,
+      0.2,
+      0.15,
+      0.1
+    ],
+    "correct@1": 0,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000302",
+    "prefix_len": 14,
+    "model": "m2_sonnet_cot",
+    "gold": "D0274",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D1110",
+      "D0274",
+      "D0120",
+      "D4910",
+      "D4341"
+    ],
+    "top_k_probs": [
+      0.35,
+      0.25,
+      0.15,
+      0.15,
+      0.1
+    ],
+    "correct@1": 0,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000022",
+    "prefix_len": 9,
+    "model": "m2_sonnet_cot",
+    "gold": "D2392",
+    "gold_category": "restorative",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D1206",
+      "D2391"
+    ],
+    "top_k_probs": [
+      0.35,
+      0.3,
+      0.2,
+      0.08,
+      0.07
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000424",
+    "prefix_len": 12,
+    "model": "m3_sonnet_rag",
+    "gold": "D1110",
+    "gold_category": "preventive",
+    "top_k_codes": [
+      "D2750",
+      "D1110",
+      "D2950",
+      "D0274",
+      "D0120"
+    ],
+    "top_k_probs": [
+      0.35,
+      0.25,
+      0.2,
+      0.12,
+      0.08
+    ],
+    "correct@1": 0,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000412",
+    "prefix_len": 13,
+    "model": "m3_sonnet_rag",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D4910",
+      "D0120",
+      "D0274",
+      "D4341",
+      "D4342"
+    ],
+    "top_k_probs": [
+      0.5,
+      0.2,
+      0.12,
+      0.1,
+      0.08
+    ],
+    "correct@1": 0,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000135",
+    "prefix_len": 20,
+    "model": "m3_sonnet_rag",
+    "gold": "D2392",
+    "gold_category": "restorative",
+    "top_k_codes": [
+      "D4910",
+      "D4341",
+      "D0274",
+      "D0120",
+      "D4342"
+    ],
+    "top_k_probs": [
+      0.38,
+      0.27,
+      0.15,
+      0.12,
+      0.08
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000047",
+    "prefix_len": 19,
+    "model": "m3_sonnet_rag",
+    "gold": "D2950",
+    "gold_category": "restorative",
+    "top_k_codes": [
+      "D1110",
+      "D0120",
+      "D0274",
+      "D4346",
+      "D2391"
+    ],
+    "top_k_probs": [
+      0.32,
+      0.28,
+      0.18,
+      0.12,
+      0.1
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000214",
+    "prefix_len": 3,
+    "model": "m3_sonnet_rag",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0150",
+      "D1110",
+      "D0274",
+      "D0210",
+      "D4346"
+    ],
+    "top_k_probs": [
+      0.35,
+      0.25,
+      0.2,
+      0.1,
+      0.1
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000274",
+    "prefix_len": 6,
+    "model": "m3_sonnet_rag",
+    "gold": "D8080",
+    "gold_category": "orthodontic",
+    "top_k_codes": [
+      "D1110",
+      "D0120",
+      "D0274",
+      "D8080",
+      "D1206"
+    ],
+    "top_k_probs": [
+      0.35,
+      0.2,
+      0.2,
+      0.13,
+      0.12
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000111",
+    "prefix_len": 15,
+    "model": "m3_sonnet_rag",
+    "gold": "D7210",
+    "gold_category": "oral_surgery",
+    "top_k_codes": [
+      "D0120",
+      "D6010",
+      "D1110",
+      "D5110",
+      "D4910"
+    ],
+    "top_k_probs": [
+      0.28,
+      0.25,
+      0.2,
+      0.15,
+      0.12
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000012",
+    "prefix_len": 3,
+    "model": "m3_sonnet_rag",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0150",
+      "D1110",
+      "D0210",
+      "D8080",
+      "D0274"
+    ],
+    "top_k_probs": [
+      0.35,
+      0.22,
+      0.18,
+      0.15,
+      0.1
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000302",
+    "prefix_len": 19,
+    "model": "m3_sonnet_rag",
+    "gold": "D2392",
+    "gold_category": "restorative",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D2392",
+      "D4910"
+    ],
+    "top_k_probs": [
+      0.3,
+      0.25,
+      0.2,
+      0.15,
+      0.1
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000012",
+    "prefix_len": 24,
+    "model": "m3_sonnet_rag",
+    "gold": "D0274",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D8080",
+      "D1110",
+      "D0274",
+      "D8210",
+      "D9215"
+    ],
+    "top_k_probs": [
+      0.45,
+      0.2,
+      0.15,
+      0.12,
+      0.08
+    ],
+    "correct@1": 0,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000185",
+    "prefix_len": 12,
+    "model": "m3_sonnet_rag",
+    "gold": "D1110",
+    "gold_category": "preventive",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D2391",
+      "D9215"
+    ],
+    "top_k_probs": [
+      0.35,
+      0.3,
+      0.13,
+      0.12,
+      0.1
+    ],
+    "correct@1": 0,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000279",
+    "prefix_len": 10,
+    "model": "m3_sonnet_rag",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0120",
+      "D0150",
+      "D6056",
+      "D1110",
+      "D0274"
+    ],
+    "top_k_probs": [
+      0.3,
+      0.2,
+      0.18,
+      0.17,
+      0.15
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000258",
+    "prefix_len": 5,
+    "model": "m3_sonnet_rag",
+    "gold": "D4346",
+    "gold_category": "periodontic",
+    "top_k_codes": [
+      "D0150",
+      "D0210",
+      "D4910",
+      "D0274",
+      "D4341"
+    ],
+    "top_k_probs": [
+      0.35,
+      0.25,
+      0.2,
+      0.1,
+      0.1
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000125",
+    "prefix_len": 8,
+    "model": "m3_sonnet_rag",
+    "gold": "D4910",
+    "gold_category": "periodontic",
+    "top_k_codes": [
+      "D4910",
+      "D4341",
+      "D0120",
+      "D0274",
+      "D4342"
+    ],
+    "top_k_probs": [
+      0.368421,
+      0.263158,
+      0.157895,
+      0.105263,
+      0.105263
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000214",
+    "prefix_len": 8,
+    "model": "m3_sonnet_rag",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D1206",
+      "D4910"
+    ],
+    "top_k_probs": [
+      0.3,
+      0.28,
+      0.22,
+      0.12,
+      0.08
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000327",
+    "prefix_len": 11,
+    "model": "m3_sonnet_rag",
+    "gold": "D0210",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D1110",
+      "D6058",
+      "D4910",
+      "D6056",
+      "D0120"
+    ],
+    "top_k_probs": [
+      0.32,
+      0.24,
+      0.2,
+      0.14,
+      0.1
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000071",
+    "prefix_len": 3,
+    "model": "m3_sonnet_rag",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0150",
+      "D0274",
+      "D1110",
+      "D0210",
+      "D2391"
+    ],
+    "top_k_probs": [
+      0.38,
+      0.24,
+      0.2,
+      0.1,
+      0.08
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000258",
+    "prefix_len": 8,
+    "model": "m3_sonnet_rag",
+    "gold": "D0274",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0150",
+      "D0274",
+      "D4910",
+      "D1110",
+      "D0210"
+    ],
+    "top_k_probs": [
+      0.32,
+      0.24,
+      0.22,
+      0.12,
+      0.1
+    ],
+    "correct@1": 0,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000332",
+    "prefix_len": 11,
+    "model": "m3_sonnet_rag",
+    "gold": "D9215",
+    "gold_category": "adjunctive",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D2392",
+      "D4346"
+    ],
+    "top_k_probs": [
+      0.3,
+      0.25,
+      0.22,
+      0.13,
+      0.1
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000183",
+    "prefix_len": 20,
+    "model": "m3_sonnet_rag",
+    "gold": "D1110",
+    "gold_category": "preventive",
+    "top_k_codes": [
+      "D1110",
+      "D0120",
+      "D0274",
+      "D2392",
+      "D4341"
+    ],
+    "top_k_probs": [
+      0.31,
+      0.27,
+      0.19,
+      0.14,
+      0.09
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000282",
+    "prefix_len": 16,
+    "model": "m3_sonnet_rag",
+    "gold": "D8080",
+    "gold_category": "orthodontic",
+    "top_k_codes": [
+      "D8080",
+      "D0120",
+      "D1110",
+      "D2391",
+      "D8210"
+    ],
+    "top_k_probs": [
+      0.42,
+      0.21,
+      0.15,
+      0.12,
+      0.1
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000274",
+    "prefix_len": 28,
+    "model": "m3_sonnet_rag",
+    "gold": "D8080",
+    "gold_category": "orthodontic",
+    "top_k_codes": [
+      "D8080",
+      "D8210",
+      "D0120",
+      "D1110",
+      "D0274"
+    ],
+    "top_k_probs": [
+      0.55,
+      0.2,
+      0.1,
+      0.08,
+      0.07
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000022",
+    "prefix_len": 1,
+    "model": "m3_sonnet_rag",
+    "gold": "D0274",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0150",
+      "D0274",
+      "D1110",
+      "D0120",
+      "D0210"
+    ],
+    "top_k_probs": [
+      0.28,
+      0.26,
+      0.22,
+      0.14,
+      0.1
+    ],
+    "correct@1": 0,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000486",
+    "prefix_len": 2,
+    "model": "m3_sonnet_rag",
+    "gold": "D0274",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0150",
+      "D1110",
+      "D0210",
+      "D0120",
+      "D0274"
+    ],
+    "top_k_probs": [
+      0.28,
+      0.24,
+      0.2,
+      0.15,
+      0.13
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000176",
+    "prefix_len": 3,
+    "model": "m3_sonnet_rag",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0150",
+      "D0274",
+      "D0210",
+      "D1110",
+      "D4346"
+    ],
+    "top_k_probs": [
+      0.4,
+      0.22,
+      0.15,
+      0.15,
+      0.08
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000274",
+    "prefix_len": 5,
+    "model": "m3_sonnet_rag",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D1206",
+      "D8080"
+    ],
+    "top_k_probs": [
+      0.38,
+      0.3,
+      0.14,
+      0.1,
+      0.08
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000433",
+    "prefix_len": 6,
+    "model": "m3_sonnet_rag",
+    "gold": "D4910",
+    "gold_category": "periodontic",
+    "top_k_codes": [
+      "D4910",
+      "D0120",
+      "D0274",
+      "D4342",
+      "D1110"
+    ],
+    "top_k_probs": [
+      0.5,
+      0.16,
+      0.14,
+      0.11,
+      0.09
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000279",
+    "prefix_len": 7,
+    "model": "m3_sonnet_rag",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0120",
+      "D0150",
+      "D6056",
+      "D1110",
+      "D0274"
+    ],
+    "top_k_probs": [
+      0.28,
+      0.2,
+      0.2,
+      0.18,
+      0.14
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000302",
+    "prefix_len": 14,
+    "model": "m3_sonnet_rag",
+    "gold": "D0274",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0274",
+      "D1110",
+      "D2392",
+      "D0120",
+      "D4910"
+    ],
+    "top_k_probs": [
+      0.3,
+      0.25,
+      0.18,
+      0.15,
+      0.12
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000022",
+    "prefix_len": 9,
+    "model": "m3_sonnet_rag",
+    "gold": "D2392",
+    "gold_category": "restorative",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D2391",
+      "D9110"
+    ],
+    "top_k_probs": [
+      0.33,
+      0.28,
+      0.22,
+      0.09,
+      0.08
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  }
+]

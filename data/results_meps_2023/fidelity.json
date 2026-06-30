@@ -1,0 +1,40 @@
+{
+  "n_synth": 7119,
+  "n_meps": 11016,
+  "common_scheme": [
+    "exam",
+    "preventive_prophylaxis",
+    "restorative",
+    "endodontic",
+    "periodontal",
+    "surgical",
+    "prosthodontic",
+    "orthodontic",
+    "other"
+  ],
+  "marginal_synth": [
+    0.426,
+    0.1277,
+    0.1226,
+    0.0008,
+    0.1098,
+    0.0489,
+    0.0013,
+    0.1103,
+    0.0525
+  ],
+  "marginal_meps": [
+    0.0929,
+    0.4112,
+    0.1857,
+    0.0243,
+    0.0182,
+    0.0701,
+    0.0456,
+    0.1325,
+    0.0195
+  ],
+  "marginal_pearson_r": 0.193,
+  "marginal_tvd": 0.458,
+  "transition_pearson_r": 0.498
+}

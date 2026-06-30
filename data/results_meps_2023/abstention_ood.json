@@ -1,0 +1,56 @@
+{
+  "seed": 42,
+  "n_test": 1284,
+  "tau": 0.36397406165548135,
+  "indist": {
+    "coverage": 0.7998442367601246,
+    "risk_covered": 0.3807205452775073,
+    "risk_no_abstain": 0.44236760124610597
+  },
+  "ood": {
+    "random": {
+      "abstain_rate": 0.3309968847352025,
+      "ood_auroc": 0.6632171902446599
+    },
+    "scramble": {
+      "abstain_rate": 0.21728971962616822,
+      "ood_auroc": 0.48167477023709
+    },
+    "empty": {
+      "abstain_rate": 0.0,
+      "ood_auroc": 0.033808750885569824
+    }
+  },
+  "coverage_risk_curve": [
+    {
+      "abstain_target": 0.0,
+      "coverage": 1.0,
+      "risk_covered": 0.44236760124610597
+    },
+    {
+      "abstain_target": 0.1,
+      "coverage": 0.8995327102803738,
+      "risk_covered": 0.4147186147186147
+    },
+    {
+      "abstain_target": 0.2,
+      "coverage": 0.7998442367601246,
+      "risk_covered": 0.3807205452775073
+    },
+    {
+      "abstain_target": 0.3,
+      "coverage": 0.7001557632398754,
+      "risk_covered": 0.3548387096774194
+    },
+    {
+      "abstain_target": 0.4,
+      "coverage": 0.5996884735202492,
+      "risk_covered": 0.3415584415584415
+    },
+    {
+      "abstain_target": 0.5,
+      "coverage": 0.5007788161993769,
+      "risk_covered": 0.31570762052877144
+    }
+  ]
+}

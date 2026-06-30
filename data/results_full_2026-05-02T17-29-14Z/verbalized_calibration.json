@@ -1,0 +1,17 @@
+{
+  "m1_haiku": {
+    "n_calls": 30,
+    "n_abstain": 0,
+    "n_parse_fail": 0
+  },
+  "m2_sonnet_cot": {
+    "n_calls": 30,
+    "n_abstain": 0,
+    "n_parse_fail": 0
+  },
+  "m3_sonnet_rag": {
+    "n_calls": 30,
+    "n_abstain": 0,
+    "n_parse_fail": 0
+  }
+}

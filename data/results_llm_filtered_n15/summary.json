@@ -1,0 +1,73 @@
+{
+  "runs": [
+    {
+      "model": "m1_haiku",
+      "n_test_examples": 15,
+      "top1_acc": 0.26666666666666666,
+      "top3_acc": 0.4666666666666667,
+      "top5_acc": 0.6,
+      "top1_by_category": {
+        "preventive": 0.0,
+        "diagnostic": 0.6667,
+        "restorative": 0.0,
+        "orthodontic": 0.0,
+        "oral_surgery": 0.0,
+        "periodontic": 0.0
+      },
+      "category_counts": {
+        "preventive": 2,
+        "diagnostic": 6,
+        "restorative": 3,
+        "orthodontic": 1,
+        "oral_surgery": 1,
+        "periodontic": 2
+      }
+    },
+    {
+      "model": "m2_sonnet_cot",
+      "n_test_examples": 15,
+      "top1_acc": 0.4666666666666667,
+      "top3_acc": 0.6,
+      "top5_acc": 0.7333333333333333,
+      "top1_by_category": {
+        "preventive": 1.0,
+        "diagnostic": 0.6667,
+        "restorative": 0.0,
+        "orthodontic": 0.0,
+        "oral_surgery": 0.0,
+        "periodontic": 0.5
+      },
+      "category_counts": {
+        "preventive": 2,
+        "diagnostic": 6,
+        "restorative": 3,
+        "orthodontic": 1,
+        "oral_surgery": 1,
+        "periodontic": 2
+      }
+    },
+    {
+      "model": "m3_sonnet_rag",
+      "n_test_examples": 15,
+      "top1_acc": 0.2,
+      "top3_acc": 0.4666666666666667,
+      "top5_acc": 0.6,
+      "top1_by_category": {
+        "preventive": 0.0,
+        "diagnostic": 0.3333,
+        "restorative": 0.0,
+        "orthodontic": 0.0,
+        "oral_surgery": 0.0,
+        "periodontic": 0.5
+      },
+      "category_counts": {
+        "preventive": 2,
+        "diagnostic": 6,
+        "restorative": 3,
+        "orthodontic": 1,
+        "oral_surgery": 1,
+        "periodontic": 2
+      }
+    }
+  ]
+}

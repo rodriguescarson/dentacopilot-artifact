@@ -1,0 +1,91 @@
+{
+  "runs": [
+    {
+      "model": "b0_bigram",
+      "n_test_examples": 246,
+      "top1_acc": 0.5447154471544715,
+      "top3_acc": 0.7601626016260162,
+      "top5_acc": 0.8780487804878049,
+      "top1_by_category": {
+        "diagnostic": 0.75,
+        "preventive": 0.5714,
+        "restorative": 0.0,
+        "adjunctive": 0.7778,
+        "implant": 0.3333,
+        "oral_surgery": 0.0,
+        "periodontic": 0.15,
+        "orthodontic": 0.6154
+      },
+      "category_counts": {
+        "diagnostic": 100,
+        "preventive": 42,
+        "restorative": 33,
+        "adjunctive": 18,
+        "implant": 6,
+        "oral_surgery": 1,
+        "periodontic": 20,
+        "orthodontic": 26
+      },
+      "wallclock_s": 0.002,
+      "fit_wallclock_s": 0.0
+    },
+    {
+      "model": "b1_tfidf_lr",
+      "n_test_examples": 246,
+      "top1_acc": 0.5650406504065041,
+      "top3_acc": 0.7642276422764228,
+      "top5_acc": 0.8658536585365854,
+      "top1_by_category": {
+        "diagnostic": 0.76,
+        "preventive": 0.6667,
+        "restorative": 0.0,
+        "adjunctive": 0.7778,
+        "implant": 0.0,
+        "oral_surgery": 0.0,
+        "periodontic": 0.15,
+        "orthodontic": 0.6923
+      },
+      "category_counts": {
+        "diagnostic": 100,
+        "preventive": 42,
+        "restorative": 33,
+        "adjunctive": 18,
+        "implant": 6,
+        "oral_surgery": 1,
+        "periodontic": 20,
+        "orthodontic": 26
+      },
+      "wallclock_s": 0.119,
+      "fit_wallclock_s": 0.037
+    },
+    {
+      "model": "b2_xgboost",
+      "n_test_examples": 246,
+      "top1_acc": 0.44308943089430897,
+      "top3_acc": 0.7682926829268293,
+      "top5_acc": 0.8861788617886179,
+      "top1_by_category": {
+        "diagnostic": 0.61,
+        "preventive": 0.619,
+        "restorative": 0.0,
+        "adjunctive": 0.6667,
+        "implant": 0.1667,
+        "oral_surgery": 0.0,
+        "periodontic": 0.1,
+        "orthodontic": 0.2692
+      },
+      "category_counts": {
+        "diagnostic": 100,
+        "preventive": 42,
+        "restorative": 33,
+        "adjunctive": 18,
+        "implant": 6,
+        "oral_surgery": 1,
+        "periodontic": 20,
+        "orthodontic": 26
+      },
+      "wallclock_s": 0.113,
+      "fit_wallclock_s": 0.599
+    }
+  ]
+}

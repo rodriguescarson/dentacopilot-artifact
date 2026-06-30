@@ -1,0 +1,14 @@
+{
+  "replayed_from": "data/results_full_2026-05-02T17-29-14Z",
+  "n_test_examples": 30,
+  "args": {
+    "llm_run": "data/results_full_2026-05-02T17-29-14Z",
+    "n_charts": 500,
+    "seed": 42,
+    "models": [
+      "b2_xgboost"
+    ],
+    "top_k": 5,
+    "out": "data/results_b2_replay"
+  }
+}

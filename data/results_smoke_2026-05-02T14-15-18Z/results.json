@@ -1,0 +1,242 @@
+[
+  {
+    "chart_id": "P000004",
+    "prefix_len": 10,
+    "model": "m2_sonnet_cot",
+    "gold": "D9215",
+    "gold_category": "adjunctive",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D2391",
+      "D2392"
+    ],
+    "top_k_probs": [
+      0.38,
+      0.28,
+      0.17,
+      0.1,
+      0.07
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000086",
+    "prefix_len": 9,
+    "model": "m2_sonnet_cot",
+    "gold": "D0274",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D1110",
+      "D0120",
+      "D0274",
+      "D1206",
+      "D0150"
+    ],
+    "top_k_probs": [
+      0.4,
+      0.25,
+      0.2,
+      0.1,
+      0.05
+    ],
+    "correct@1": 0,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000035",
+    "prefix_len": 31,
+    "model": "m2_sonnet_cot",
+    "gold": "D8080",
+    "gold_category": "orthodontic",
+    "top_k_codes": [
+      "D8080",
+      "D8090",
+      "D0120",
+      "D8210",
+      "D1110"
+    ],
+    "top_k_probs": [
+      0.35,
+      0.2,
+      0.2,
+      0.15,
+      0.1
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000003",
+    "prefix_len": 2,
+    "model": "m2_sonnet_cot",
+    "gold": "D1110",
+    "gold_category": "preventive",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D4346",
+      "D1206"
+    ],
+    "top_k_probs": [
+      0.3,
+      0.25,
+      0.2,
+      0.15,
+      0.1
+    ],
+    "correct@1": 0,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000075",
+    "prefix_len": 11,
+    "model": "m2_sonnet_cot",
+    "gold": "D0120",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D0120",
+      "D0274",
+      "D1110",
+      "D2392",
+      "D1206"
+    ],
+    "top_k_probs": [
+      0.35,
+      0.3,
+      0.2,
+      0.08,
+      0.07
+    ],
+    "correct@1": 1,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000081",
+    "prefix_len": 15,
+    "model": "m2_sonnet_cot",
+    "gold": "D0274",
+    "gold_category": "diagnostic",
+    "top_k_codes": [
+      "D1110",
+      "D0120",
+      "D0274",
+      "D2392",
+      "D9215"
+    ],
+    "top_k_probs": [
+      0.34,
+      0.24,
+      0.21,
+      0.12,
+      0.09
+    ],
+    "correct@1": 0,
+    "correct@3": 1,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000028",
+    "prefix_len": 8,
+    "model": "m2_sonnet_cot",
+    "gold": "D4346",
+    "gold_category": "periodontic",
+    "top_k_codes": [
+      "D4910",
+      "D0120",
+      "D4341",
+      "D0274",
+      "D4342"
+    ],
+    "top_k_probs": [
+      0.45,
+      0.2,
+      0.13,
+      0.12,
+      0.1
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000017",
+    "prefix_len": 5,
+    "model": "m2_sonnet_cot",
+    "gold": "D4910",
+    "gold_category": "periodontic",
+    "top_k_codes": [
+      "D0120",
+      "D1110",
+      "D0274",
+      "D4910",
+      "D1206"
+    ],
+    "top_k_probs": [
+      0.28,
+      0.22,
+      0.22,
+      0.18,
+      0.1
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 1
+  },
+  {
+    "chart_id": "P000035",
+    "prefix_len": 24,
+    "model": "m2_sonnet_cot",
+    "gold": "D8210",
+    "gold_category": "orthodontic",
+    "top_k_codes": [
+      "D8090",
+      "D1110",
+      "D0120",
+      "D0274",
+      "D1206"
+    ],
+    "top_k_probs": [
+      0.565657,
+      0.181818,
+      0.121212,
+      0.080808,
+      0.050505
+    ],
+    "correct@1": 0,
+    "correct@3": 0,
+    "correct@5": 0
+  },
+  {
+    "chart_id": "P000003",
+    "prefix_len": 9,
+    "model": "m2_sonnet_cot",
+    "gold": "D1110",
+    "gold_category": "preventive",
+    "top_k_codes": [
+      "D2740",
+      "D0120",
+      "D1110",
+      "D2750",
+      "D0274"
+    ],
+    "top_k_probs": [
+      0.3,
+      0.25,
+      0.2,
+      0.15,
+      0.1
+    ],
+    "correct@1": 0,
+    "correct@3": 1,
+    "correct@5": 1
+  }
+]

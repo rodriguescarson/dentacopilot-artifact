@@ -1,0 +1,10 @@
+{
+  "merged_from": [
+    "data/results_full_2026-05-02T18-30-26Z",
+    "data/results_full_2026-05-02T18-30-54Z",
+    "data/results_full_2026-05-02T17-29-14Z"
+  ],
+  "merged_at": "2026-05-02T18:31:13.047778+00:00",
+  "n_trials": 210,
+  "n_models": 7
+}

@@ -1,0 +1,11 @@
+{
+  "merged_from": [
+    "data/results_baseline_replay_n15",
+    "data/results_b2_replay_n15",
+    "data/results_llm_filtered_n15",
+    "data/results_full_2026-05-02T18-46-33Z"
+  ],
+  "merged_at": "2026-05-02T18:51:01.926702+00:00",
+  "n_trials": 120,
+  "n_models": 8
+}

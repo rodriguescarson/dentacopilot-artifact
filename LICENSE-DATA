@@ -1,0 +1,19 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Carson Conception Rodrigues and Steffie Dione Rebello
+
+The data files in this repository, namely the deterministic synthetic corpora
+(data/cache/synth_*.json) and the per-run records (data/results_*/), are
+licensed under the Creative Commons Attribution 4.0 International License.
+
+You are free to share and adapt this material for any purpose, even
+commercially, provided you give appropriate credit, provide a link to the
+license, and indicate if changes were made.
+
+SPDX-License-Identifier: CC-BY-4.0
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+This material does not include patient-identifiable data. The MEPS 2023 Dental
+Visits file (AHRQ) is not redistributed here; it is public data retrieved by
+data/meps_benchmark.py and is governed by the Agency for Healthcare Research
+and Quality data-use terms.

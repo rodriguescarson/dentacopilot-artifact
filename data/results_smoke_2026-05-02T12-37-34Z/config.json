@@ -1,0 +1,23 @@
+{
+  "git_sha": "36b3d0f7393d5e580721696cf8fe6c50c7c238b6",
+  "started_utc": "2026-05-02T12:37:34.086034+00:00",
+  "args": {
+    "models": [
+      "b0",
+      "b1",
+      "b2"
+    ],
+    "data_source": "synthetic",
+    "n_charts": 100,
+    "seed": 42,
+    "top_k": 5,
+    "smoke": true,
+    "regenerate": false,
+    "results_root": "data/results",
+    "max_test": 500
+  },
+  "n_train_examples": 1255,
+  "n_test_examples": 246,
+  "python": "3.9.6",
+  "platform": "macOS-26.3.1-arm64-arm-64bit"
+}

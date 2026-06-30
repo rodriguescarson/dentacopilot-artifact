@@ -1,0 +1,27 @@
+{
+  "runs": [
+    {
+      "model": "b2_xgboost",
+      "n_test_examples": 15,
+      "top1_acc": 0.4,
+      "top3_acc": 0.8666666666666667,
+      "top5_acc": 0.9333333333333333,
+      "top1_by_category": {
+        "preventive": 0.5,
+        "orthodontic": 0.0,
+        "restorative": 0.0,
+        "diagnostic": 0.8333,
+        "periodontic": 0.0,
+        "oral_surgery": 0.0
+      },
+      "category_counts": {
+        "preventive": 2,
+        "orthodontic": 1,
+        "restorative": 3,
+        "diagnostic": 6,
+        "periodontic": 2,
+        "oral_surgery": 1
+      }
+    }
+  ]
+}
