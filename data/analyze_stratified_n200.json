@@ -1,0 +1,509 @@
+{
+  "source": "results_stratified_n200",
+  "partial": false,
+  "sample_plan": {
+    "small_cap": 40,
+    "target_n": 200,
+    "sample_seed": 2026,
+    "test_split_counts": {
+      "adjunctive": 117,
+      "diagnostic": 531,
+      "endodontic": 1,
+      "implant": 32,
+      "oral_surgery": 22,
+      "orthodontic": 120,
+      "periodontic": 108,
+      "preventive": 200,
+      "prosthodontic_removable": 1,
+      "restorative": 152
+    },
+    "allocation": {
+      "adjunctive": 24,
+      "diagnostic": 24,
+      "endodontic": 1,
+      "implant": 32,
+      "oral_surgery": 22,
+      "orthodontic": 24,
+      "periodontic": 24,
+      "preventive": 24,
+      "prosthodontic_removable": 1,
+      "restorative": 24
+    }
+  },
+  "n_failed_llm_trials_in_results_json": 0,
+  "models": {
+    "B0": {
+      "model": "b0_bigram",
+      "n": 200,
+      "k1": 94,
+      "top1": 0.47,
+      "top1_ci95_clopper_pearson": [
+        0.3992,
+        0.5417
+      ],
+      "top3": 0.74,
+      "top5": 0.85,
+      "top1_mix_reweighted": 0.5862,
+      "top1_by_category": {
+        "adjunctive": {
+          "n": 24,
+          "top1": 0.7917
+        },
+        "diagnostic": {
+          "n": 24,
+          "top1": 0.75
+        },
+        "endodontic": {
+          "n": 1,
+          "top1": 0.0
+        },
+        "implant": {
+          "n": 32,
+          "top1": 0.3438
+        },
+        "oral_surgery": {
+          "n": 22,
+          "top1": 0.3182
+        },
+        "orthodontic": {
+          "n": 24,
+          "top1": 0.75
+        },
+        "periodontic": {
+          "n": 24,
+          "top1": 0.2083
+        },
+        "preventive": {
+          "n": 24,
+          "top1": 0.625
+        },
+        "prosthodontic_removable": {
+          "n": 1,
+          "top1": 0.0
+        },
+        "restorative": {
+          "n": 24,
+          "top1": 0.0417
+        }
+      },
+      "abstain_count": null,
+      "parse_failed_count": null
+    },
+    "B1": {
+      "model": "b1_tfidf_lr",
+      "n": 200,
+      "k1": 100,
+      "top1": 0.5,
+      "top1_ci95_clopper_pearson": [
+        0.4287,
+        0.5713
+      ],
+      "top3": 0.79,
+      "top5": 0.88,
+      "top1_mix_reweighted": 0.6268,
+      "top1_by_category": {
+        "adjunctive": {
+          "n": 24,
+          "top1": 0.7917
+        },
+        "diagnostic": {
+          "n": 24,
+          "top1": 0.7917
+        },
+        "endodontic": {
+          "n": 1,
+          "top1": 0.0
+        },
+        "implant": {
+          "n": 32,
+          "top1": 0.3438
+        },
+        "oral_surgery": {
+          "n": 22,
+          "top1": 0.2727
+        },
+        "orthodontic": {
+          "n": 24,
+          "top1": 0.9167
+        },
+        "periodontic": {
+          "n": 24,
+          "top1": 0.2917
+        },
+        "preventive": {
+          "n": 24,
+          "top1": 0.6667
+        },
+        "prosthodontic_removable": {
+          "n": 1,
+          "top1": 0.0
+        },
+        "restorative": {
+          "n": 24,
+          "top1": 0.0
+        }
+      },
+      "abstain_count": null,
+      "parse_failed_count": null
+    },
+    "B2": {
+      "model": "b2_xgboost",
+      "n": 200,
+      "k1": 84,
+      "top1": 0.42,
+      "top1_ci95_clopper_pearson": [
+        0.3507,
+        0.4917
+      ],
+      "top3": 0.735,
+      "top5": 0.87,
+      "top1_mix_reweighted": 0.5785,
+      "top1_by_category": {
+        "adjunctive": {
+          "n": 24,
+          "top1": 0.7083
+        },
+        "diagnostic": {
+          "n": 24,
+          "top1": 0.75
+        },
+        "endodontic": {
+          "n": 1,
+          "top1": 0.0
+        },
+        "implant": {
+          "n": 32,
+          "top1": 0.1562
+        },
+        "oral_surgery": {
+          "n": 22,
+          "top1": 0.1818
+        },
+        "orthodontic": {
+          "n": 24,
+          "top1": 0.7917
+        },
+        "periodontic": {
+          "n": 24,
+          "top1": 0.1667
+        },
+        "preventive": {
+          "n": 24,
+          "top1": 0.6667
+        },
+        "prosthodontic_removable": {
+          "n": 1,
+          "top1": 0.0
+        },
+        "restorative": {
+          "n": 24,
+          "top1": 0.0417
+        }
+      },
+      "abstain_count": null,
+      "parse_failed_count": null
+    },
+    "B3": {
+      "model": "b3_multitp",
+      "n": 200,
+      "k1": 98,
+      "top1": 0.49,
+      "top1_ci95_clopper_pearson": [
+        0.4188,
+        0.5615
+      ],
+      "top3": 0.845,
+      "top5": 0.945,
+      "top1_mix_reweighted": 0.6069,
+      "top1_by_category": {
+        "adjunctive": {
+          "n": 24,
+          "top1": 0.7917
+        },
+        "diagnostic": {
+          "n": 24,
+          "top1": 0.75
+        },
+        "endodontic": {
+          "n": 1,
+          "top1": 0.0
+        },
+        "implant": {
+          "n": 32,
+          "top1": 0.3438
+        },
+        "oral_surgery": {
+          "n": 22,
+          "top1": 0.2727
+        },
+        "orthodontic": {
+          "n": 24,
+          "top1": 1.0
+        },
+        "periodontic": {
+          "n": 24,
+          "top1": 0.1667
+        },
+        "preventive": {
+          "n": 24,
+          "top1": 0.6667
+        },
+        "prosthodontic_removable": {
+          "n": 1,
+          "top1": 0.0
+        },
+        "restorative": {
+          "n": 24,
+          "top1": 0.0
+        }
+      },
+      "abstain_count": null,
+      "parse_failed_count": null
+    },
+    "M2": {
+      "model": "m2_sonnet_cot",
+      "n": 200,
+      "k1": 72,
+      "top1": 0.36,
+      "top1_ci95_clopper_pearson": [
+        0.2935,
+        0.4307
+      ],
+      "top3": 0.475,
+      "top5": 0.58,
+      "top1_mix_reweighted": 0.4163,
+      "top1_by_category": {
+        "adjunctive": {
+          "n": 24,
+          "top1": 0.0
+        },
+        "diagnostic": {
+          "n": 24,
+          "top1": 0.4167
+        },
+        "endodontic": {
+          "n": 1,
+          "top1": 0.0
+        },
+        "implant": {
+          "n": 32,
+          "top1": 0.3438
+        },
+        "oral_surgery": {
+          "n": 22,
+          "top1": 0.0
+        },
+        "orthodontic": {
+          "n": 24,
+          "top1": 0.9583
+        },
+        "periodontic": {
+          "n": 24,
+          "top1": 0.5
+        },
+        "preventive": {
+          "n": 24,
+          "top1": 0.6667
+        },
+        "prosthodontic_removable": {
+          "n": 1,
+          "top1": 0.0
+        },
+        "restorative": {
+          "n": 24,
+          "top1": 0.0
+        }
+      },
+      "abstain_count": 0,
+      "parse_failed_count": 0
+    },
+    "M5": {
+      "model": "m5_sonnet_baseline_primed",
+      "n": 200,
+      "k1": 88,
+      "top1": 0.44,
+      "top1_ci95_clopper_pearson": [
+        0.3701,
+        0.5117
+      ],
+      "top3": 0.65,
+      "top5": 0.81,
+      "top1_mix_reweighted": 0.5387,
+      "top1_by_category": {
+        "adjunctive": {
+          "n": 24,
+          "top1": 0.4583
+        },
+        "diagnostic": {
+          "n": 24,
+          "top1": 0.625
+        },
+        "endodontic": {
+          "n": 1,
+          "top1": 0.0
+        },
+        "implant": {
+          "n": 32,
+          "top1": 0.3438
+        },
+        "oral_surgery": {
+          "n": 22,
+          "top1": 0.1364
+        },
+        "orthodontic": {
+          "n": 24,
+          "top1": 0.9167
+        },
+        "periodontic": {
+          "n": 24,
+          "top1": 0.375
+        },
+        "preventive": {
+          "n": 24,
+          "top1": 0.7083
+        },
+        "prosthodontic_removable": {
+          "n": 1,
+          "top1": 0.0
+        },
+        "restorative": {
+          "n": 24,
+          "top1": 0.0
+        }
+      },
+      "abstain_count": 0,
+      "parse_failed_count": 0
+    }
+  },
+  "mcnemar_top1": {
+    "B1_vs_M2": {
+      "a_only_correct": 43,
+      "b_only_correct": 15,
+      "discordant": 58,
+      "both_correct": 57,
+      "both_wrong": 85,
+      "p_exact_two_sided": 0.0003,
+      "a": "B1",
+      "b": "M2",
+      "n_paired": 200,
+      "a_correct": 100,
+      "b_correct": 72
+    },
+    "B1_vs_M5": {
+      "a_only_correct": 20,
+      "b_only_correct": 8,
+      "discordant": 28,
+      "both_correct": 80,
+      "both_wrong": 92,
+      "p_exact_two_sided": 0.0357,
+      "a": "B1",
+      "b": "M5",
+      "n_paired": 200,
+      "a_correct": 100,
+      "b_correct": 88
+    },
+    "M5_vs_M2": {
+      "a_only_correct": 24,
+      "b_only_correct": 8,
+      "discordant": 32,
+      "both_correct": 64,
+      "both_wrong": 104,
+      "p_exact_two_sided": 0.007,
+      "a": "M5",
+      "b": "M2",
+      "n_paired": 200,
+      "a_correct": 88,
+      "b_correct": 72
+    },
+    "B0_vs_M2": {
+      "a_only_correct": 40,
+      "b_only_correct": 18,
+      "discordant": 58,
+      "both_correct": 54,
+      "both_wrong": 88,
+      "p_exact_two_sided": 0.0054,
+      "a": "B0",
+      "b": "M2",
+      "n_paired": 200,
+      "a_correct": 94,
+      "b_correct": 72
+    },
+    "B2_vs_M2": {
+      "a_only_correct": 37,
+      "b_only_correct": 25,
+      "discordant": 62,
+      "both_correct": 47,
+      "both_wrong": 91,
+      "p_exact_two_sided": 0.1619,
+      "a": "B2",
+      "b": "M2",
+      "n_paired": 200,
+      "a_correct": 84,
+      "b_correct": 72
+    },
+    "B3_vs_M2": {
+      "a_only_correct": 45,
+      "b_only_correct": 19,
+      "discordant": 64,
+      "both_correct": 53,
+      "both_wrong": 83,
+      "p_exact_two_sided": 0.0016,
+      "a": "B3",
+      "b": "M2",
+      "n_paired": 200,
+      "a_correct": 98,
+      "b_correct": 72
+    },
+    "B0_vs_M5": {
+      "a_only_correct": 18,
+      "b_only_correct": 12,
+      "discordant": 30,
+      "both_correct": 76,
+      "both_wrong": 94,
+      "p_exact_two_sided": 0.3616,
+      "a": "B0",
+      "b": "M5",
+      "n_paired": 200,
+      "a_correct": 94,
+      "b_correct": 88
+    }
+  },
+  "n30_reference": {
+    "B0": {
+      "n_test_examples": 30,
+      "top1_acc": 0.5666666666666667,
+      "top3_acc": 0.8,
+      "top5_acc": 0.9333333333333333
+    },
+    "B1": {
+      "n_test_examples": 30,
+      "top1_acc": 0.5666666666666667,
+      "top3_acc": 0.9,
+      "top5_acc": 0.9666666666666667
+    },
+    "B3": {
+      "n_test_examples": 30,
+      "top1_acc": 0.5666666666666667,
+      "top3_acc": 0.8666666666666667,
+      "top5_acc": 0.9
+    },
+    "B2": {
+      "n_test_examples": 30,
+      "top1_acc": 0.43333333333333335,
+      "top3_acc": 0.9333333333333333,
+      "top5_acc": 0.9666666666666667
+    },
+    "M2": {
+      "n_test_examples": 30,
+      "top1_acc": 0.4666666666666667,
+      "top3_acc": 0.6666666666666666,
+      "top5_acc": 0.7333333333333333
+    },
+    "M5": {
+      "n_test_examples": 30,
+      "top1_acc": 0.5333333333333333,
+      "top3_acc": 0.7666666666666667,
+      "top5_acc": 0.9333333333333333
+    }
+  }
+}

@@ -53,3 +53,7 @@ Machine-readable metadata is in `CITATION.cff`.
 
 - **Code** (`*.py`): MIT License (see `LICENSE`).
 - **Data and per-run records** (synthetic corpora and `results_*/`): Creative Commons Attribution 4.0 International (see `LICENSE-DATA`).
+
+## 2026-09-05 update
+
+The manuscript was retitled after an audit: "Calibrated Next-Procedure Recommendation with Split-Conformal Abstention: A MEPS-Anchored Evaluation of Classical and Large Language Model Designs for General Dentistry". New in this artifact: `data/results_stratified_n200/` (the 200-example stratified re-run promised in the earlier draft: 400 Sonnet calls, 0 failures; analysed by `analyze_stratified_n200.py`), `audit_recompute_2026-09-05.py` (held-out calibration, calibrated abstention table, paired McNemar tests), and `check_headline_numbers.py` (diffs every number restated in the manuscript against these result files).

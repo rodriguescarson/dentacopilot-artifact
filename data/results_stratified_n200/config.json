@@ -1,0 +1,51 @@
+{
+  "git_sha": "986a22413fd1237ace1239cc5355f9abc2e7af24",
+  "started_utc": "2026-09-05T01:09:34.260644+00:00",
+  "corpus": "cache/synth_n500_seed42.json",
+  "split_seed": 42,
+  "n_train_examples": 5878,
+  "n_test_examples": 1284,
+  "plan": {
+    "small_cap": 40,
+    "target_n": 200,
+    "sample_seed": 2026,
+    "test_split_counts": {
+      "adjunctive": 117,
+      "diagnostic": 531,
+      "endodontic": 1,
+      "implant": 32,
+      "oral_surgery": 22,
+      "orthodontic": 120,
+      "periodontic": 108,
+      "preventive": 200,
+      "prosthodontic_removable": 1,
+      "restorative": 152
+    },
+    "allocation": {
+      "adjunctive": 24,
+      "diagnostic": 24,
+      "endodontic": 1,
+      "implant": 32,
+      "oral_surgery": 22,
+      "orthodontic": 24,
+      "periodontic": 24,
+      "preventive": 24,
+      "prosthodontic_removable": 1,
+      "restorative": 24
+    }
+  },
+  "n_chosen": 200,
+  "overlap_with_n30_keys": 6,
+  "workers": 3,
+  "llms": [
+    "m2_sonnet_cot",
+    "m5_sonnet_baseline_primed"
+  ],
+  "retry_sleeps": [
+    30,
+    120,
+    600
+  ],
+  "python": "3.9.6",
+  "platform": "macOS-26.5.2-arm64-arm-64bit"
+}
