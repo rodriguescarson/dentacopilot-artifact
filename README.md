@@ -1,6 +1,6 @@
 # DentaCoPilot
 
-Reproducibility artifact for the paper **"DentaCoPilot: An LLM-Augmented Next-Procedure Recommender for General Dentistry, Designed for Dentist Augmentation."**
+Reproducibility artifact for the paper **"A Zero-Shot Decision Model (Jev) Matches a Trained Classifier but Ranks Its Own Errors Worse: Calibrated, Split-Conformal Next-Procedure Recommendation in General Dentistry"** (earlier titles: "Calibrated Next-Procedure Recommendation with Split-Conformal Abstention: A MEPS-Anchored Evaluation of Classical and Large Language Model Designs for General Dentistry"; "DentaCoPilot: An LLM-Augmented Next-Procedure Recommender for General Dentistry, Designed for Dentist Augmentation").
 
 DentaCoPilot is a next-procedure recommender for general dentistry. Given a structured patient chart, it returns a calibrated top-K distribution over Current Dental Terminology (CDT) codes, a verbalized confidence label, an explicit abstain flag, and a chart-grounded rationale. It is designed to augment a clinician, not to act autonomously.
 
