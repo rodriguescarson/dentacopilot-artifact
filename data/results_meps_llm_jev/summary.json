@@ -1,0 +1,9 @@
+{
+  "n": 150,
+  "n_failed": 0,
+  "requested_model": "typesafe/jev-router",
+  "jev_top1": 0.4666666666666667,
+  "markov_top1_same_rows": 0.5333333333333333,
+  "cost_usd": 0.0856,
+  "aborted": false
+}

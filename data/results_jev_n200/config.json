@@ -1,0 +1,46 @@
+{
+  "started_utc": "2026-10-10T04:04:51Z",
+  "arm": "synth",
+  "requested_model": "typesafe/jev-router",
+  "designs": {
+    "m7_jev_cot": "m2_sonnet_cot",
+    "m8_jev_primed": "m5_sonnet_baseline_primed"
+  },
+  "plan": {
+    "small_cap": 40,
+    "target_n": 200,
+    "sample_seed": 2026,
+    "test_split_counts": {
+      "adjunctive": 117,
+      "diagnostic": 531,
+      "endodontic": 1,
+      "implant": 32,
+      "oral_surgery": 22,
+      "orthodontic": 120,
+      "periodontic": 108,
+      "preventive": 200,
+      "prosthodontic_removable": 1,
+      "restorative": 152
+    },
+    "allocation": {
+      "adjunctive": 24,
+      "diagnostic": 24,
+      "endodontic": 1,
+      "implant": 32,
+      "oral_surgery": 22,
+      "orthodontic": 24,
+      "periodontic": 24,
+      "preventive": 24,
+      "prosthodontic_removable": 1,
+      "restorative": 24
+    }
+  },
+  "n_chosen": 200,
+  "prompt_check": {
+    "identical_to_logged_sonnet_prompt": 400,
+    "not_in_log": 0
+  },
+  "cost_cap_usd": 12.0,
+  "workers": 6,
+  "python": "3.9.6"
+}
