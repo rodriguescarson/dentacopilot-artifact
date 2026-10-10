@@ -1,0 +1,9 @@
+{
+  "started_utc": "2026-10-10T04:04:51Z",
+  "arm": "meps",
+  "requested_model": "typesafe/jev-router",
+  "n": 150,
+  "seed": 42,
+  "n_transitions": 11016,
+  "cost_cap_usd": 3.0
+}

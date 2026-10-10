@@ -169,6 +169,52 @@ def main() -> int:
         add(f"n=200 McNemar {key} discordant", "analyze_stratified_n200",
             f"{r['a_only_correct']} {r['a']}-only", f"{r['a_only_correct']} won by {r['a']}",
             f"({r['a_only_correct']} vs {r['b_only_correct']})")
+    # ---- Jev (added 2026-10-10): data/analyze_jev.json + results_meps_jev_decisions/analysis.json ----
+    jv = load("analyze_jev.json")
+    js = jv["synthetic_stratified_n200"]
+    for lab in ("M7", "M8"):
+        v = js["models"][lab]
+        add(f"n=200 {lab} top-1", "analyze_jev", f"{v['top1']:.3f}")
+        add(f"n=200 {lab} top-3", "analyze_jev", f"{v['top3']:.3f}")
+        add(f"n=200 {lab} top-5", "analyze_jev", f"{v['top5']:.3f}")
+        add(f"n=200 {lab} count", "analyze_jev", f"{v['k1']}/200")
+        ci = binomtest(v["k1"], v["n"]).proportion_ci(confidence_level=0.95, method="exact")
+        add(f"n=200 {lab} CI", "exact Clopper-Pearson", f"[{ci.low:.2f},{ci.high:.2f}]")
+    add("n=200 M7 abstain count", "analyze_jev", f"{js['models']['M7']['abstain_count']} of 200")
+    add("n=200 Jev routed deepseek", "analyze_jev",
+        f"{js['models']['M7']['routed_models']['deepseek/deepseek-v4.1-flash'] + js['models']['M8']['routed_models']['deepseek/deepseek-v4.1-flash']} of")
+    add("n=200 Jev cost", "analyze_jev",
+        f"US\\${js['models']['M7']['cost_usd_total'] + js['models']['M8']['cost_usd_total']:.2f}")
+    for key in ("B1_vs_M8", "M5_vs_M8", "M8_vs_M7", "M2_vs_M7"):
+        r = js["mcnemar_top1"][key]; pv = r["p_exact_two_sided"]
+        add(f"n=200 McNemar {key} p", "analyze_jev", f"p{{=}}{pv:.4f}", f"p{{=}}{pv:.3f}", f"p{{=}}{pv:.2f}")
+        add(f"n=200 McNemar {key} discordant", "analyze_jev",
+            f"{r['a_only_correct']} against {r['b_only_correct']}", f"({r['a_only_correct']} vs {r['b_only_correct']})")
+    mp = jv["meps_probe_n150"]
+    add("MEPS Jev Router probe top-1", "analyze_jev", pct(mp["jev_top1"]) + "\\%")
+    add("MEPS Jev Router probe McNemar p", "analyze_jev", f"p{{=}}{mp['mcnemar_markov_vs_jev']['p_exact_two_sided']:.2f}")
+    ja = json.loads((HERE / "results_meps_jev_decisions" / "analysis.json").read_text())
+    add("Jev B2 refit top-1", "jev analysis", f"{ja['B2']['top1_test']:.3f}")
+    for k, lab in (("J0_first_call", "J0"), ("J1_first_call", "J1")):
+        v = ja[k]
+        add(f"Jev {lab} top-1", "jev analysis", f"{v['top1_test']:.3f}")
+        add(f"Jev {lab} top-3", "jev analysis", f"{v['top3_test']:.3f}")
+        add(f"Jev {lab} ECE raw", "jev analysis", f"{v['ece_eval']:.3f}")
+        add(f"Jev {lab} ECE isotonic", "jev analysis", f"{v['ece_eval_after_isotonic_top1']:.3f}")
+        add(f"Jev {lab} AURC", "jev analysis", f"{v['aurc_eval']:.3f}")
+        d = v["vs_B2_aurc"]
+        add(f"Jev {lab} AURC diff CI", "jev analysis",
+            f"$+{d['diff_ci95_patient_bootstrap'][0]:.3f}$ to $+{d['diff_ci95_patient_bootstrap'][1]:.3f}$")
+        add(f"Jev {lab} mean top-1 prob", "jev analysis", f"{v['mean_top1_prob_eval']:.3f}")
+    d0 = ja["J0_first_call"]["vs_B2_top1"]
+    add("Jev J0 top-1 diff", "jev analysis", f"$+{d0['diff']:.3f}$")
+    add("Jev J0 top-1 diff CI", "jev analysis",
+        f"${d0['diff_ci95_patient_bootstrap'][0]:.3f}$ to $+{d0['diff_ci95_patient_bootstrap'][1]:.3f}$")
+    add("Jev J0 AURC diff", "jev analysis", f"$+{ja['J0_first_call']['vs_B2_aurc']['diff']:.3f}$")
+    add("Jev J0 isotonic AURC", "jev analysis", f"{ja['J0_first_call']['aurc_eval_after_isotonic_top1']:.3f}")
+    add("Jev cost", "jev analysis", f"US\\${ja['cost_usd_total']:.3f}")
+    add("Jev n_cal", "jev analysis", f"{ja['n_cal']:,}".replace(",", "{,}"))
+
     stale = ["7{,}162", "& 1.15 & 0.054 &", "& 1.75 & 0.124 &", "0.36 & 0.558 & 0.718", "0.51 & 0.507 & 0.654",
              "identically to M2", "match M2 (Sonnet alone) on every metric", "p \\approx",
              "pre-registered KLE", "was pre-registered", "pre-registered clinician",

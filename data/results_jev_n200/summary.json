@@ -1,0 +1,74 @@
+{
+  "runs": [
+    {
+      "model": "m7_jev_cot",
+      "n_test_examples": 200,
+      "n_failed_calls": 0,
+      "top1_acc": 0.3,
+      "top3_acc": 0.475,
+      "top5_acc": 0.565,
+      "top1_by_category": {
+        "adjunctive": 0.0,
+        "diagnostic": 0.3333,
+        "endodontic": 0.0,
+        "implant": 0.3125,
+        "oral_surgery": 0.0,
+        "orthodontic": 0.75,
+        "periodontic": 0.5417,
+        "preventive": 0.4583,
+        "prosthodontic_removable": 0.0,
+        "restorative": 0.0
+      },
+      "category_counts": {
+        "adjunctive": 24,
+        "diagnostic": 24,
+        "endodontic": 1,
+        "implant": 32,
+        "oral_surgery": 22,
+        "orthodontic": 24,
+        "periodontic": 24,
+        "preventive": 24,
+        "prosthodontic_removable": 1,
+        "restorative": 24
+      },
+      "abstain_count": 8,
+      "parse_failed_count": 0
+    },
+    {
+      "model": "m8_jev_primed",
+      "n_test_examples": 200,
+      "n_failed_calls": 0,
+      "top1_acc": 0.425,
+      "top3_acc": 0.625,
+      "top5_acc": 0.805,
+      "top1_by_category": {
+        "adjunctive": 0.2083,
+        "diagnostic": 0.5833,
+        "endodontic": 0.0,
+        "implant": 0.3438,
+        "oral_surgery": 0.1818,
+        "orthodontic": 0.875,
+        "periodontic": 0.4583,
+        "preventive": 0.75,
+        "prosthodontic_removable": 0.0,
+        "restorative": 0.0417
+      },
+      "category_counts": {
+        "adjunctive": 24,
+        "diagnostic": 24,
+        "endodontic": 1,
+        "implant": 32,
+        "oral_surgery": 22,
+        "orthodontic": 24,
+        "periodontic": 24,
+        "preventive": 24,
+        "prosthodontic_removable": 1,
+        "restorative": 24
+      },
+      "abstain_count": 0,
+      "parse_failed_count": 4
+    }
+  ],
+  "aborted": false,
+  "cost_usd": 1.7745
+}
