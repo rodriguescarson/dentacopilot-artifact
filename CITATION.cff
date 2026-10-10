@@ -1,6 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this software or data, please cite the paper below."
-title: "DentaCoPilot: An LLM-Augmented Next-Procedure Recommender for General Dentistry, Designed for Dentist Augmentation"
+title: "DentaCoPilot reproducibility artifact for \"A Zero-Shot Decision Model (Jev) Matches a Trained Classifier but Ranks Its Own Errors Worse: Calibrated, Split-Conformal Next-Procedure Recommendation in General Dentistry\""
+version: "2.0.0"
+date-released: "2026-10-10"
 type: software
 license: MIT
 authors:
@@ -12,7 +14,7 @@ authors:
     orcid: "https://orcid.org/0009-0004-0929-1032"
 preferred-citation:
   type: article
-  title: "DentaCoPilot: An LLM-Augmented Next-Procedure Recommender for General Dentistry, Designed for Dentist Augmentation"
+  title: "A Zero-Shot Decision Model (Jev) Matches a Trained Classifier but Ranks Its Own Errors Worse: Calibrated, Split-Conformal Next-Procedure Recommendation in General Dentistry"
   year: 2026
   doi: "10.64898/2026.05.07.26352635"
   authors:
